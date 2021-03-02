@@ -8,6 +8,9 @@ var mobileNative = (function () {
 		MOBILENATIVEINTERCEPT: "https://stTest.com/STTEST?interceptType=",
 	}
 
+	mobile.invokeAlert = function invokeAlert() {
+		alert("Test Success!!");
+	}
 
 	mobile.invokeTracktoMobile = function simplifiedTrackingToMobile(trackingNumber, trackStatusCode, trackStatusDescription){  
 		var url = mobile._getTrackUrl();
