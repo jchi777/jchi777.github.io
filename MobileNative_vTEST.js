@@ -19,7 +19,7 @@ var mobileNative = (function () {
 
 	
 	mobile._getTrackUrl = function getTrackUrl(){
-		return mobile.urls["MOBILENATIVEINTERCEPT"] + "SimplifiedTrackingToMobile";
+		return mobile.urls["STTOMOBILE"] + "SimplifiedTrackingToMobile";
 	};
 
 
