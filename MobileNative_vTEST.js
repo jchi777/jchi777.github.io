@@ -18,6 +18,9 @@ var mobileNative = (function () {
 		window.location = url;
 	} 
 
+	mobile.myFunction = function myFunction(number) {
+		document.getElementById("myText").innerHTML = number;
+	  }
 	
 	mobile._getTrackUrl = function getTrackUrl(){
 		return mobile.urls["MOBILENATIVEINTERCEPT"] + "st_test";;

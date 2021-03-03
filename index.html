@@ -9,19 +9,20 @@
   
 </head>
 
-<body>
+<body onload="mobileNative.myFunction('0')">
   
-  <h1>Simplified Tracking Test</h1>
+  <h1>Simplified Tracking Test Page</h1>
   <br />
-  <h3> Test Track to Mobile</h3>
+  <h3 style="margin-bottom: 0px;"> Track to Mobile</h3>
       <button type="button" onclick="mobileNative.invokeTracktoMobile()" style="background-color:rgb(52, 57, 73);color:white;padding:20px;width:200px;height:60px;font-size: large; " >invokeTracktoMobile </button>
-  </body>
 
-  <br />
-  <h3> Test Track to Mobile</h3>
-      <button type="button" onclick="mobileNative.invokeAlert()" style="background-color:rgb(52, 57, 73);color:white;padding:20px;width:200px;height:60px;font-size: large; " >Test JS Call </button>
-  </body>
-      
-  
+      <h3 style="margin-bottom: 0px;"> Test Set Number</h3>
+      <button type="button" onclick="mobileNative.myFunction('2000')" style="background-color:rgb(52, 57, 73);color:white;padding:20px;width:200px;height:60px;font-size: large; " >invokeTracktoMobile </button>
 
+      <br />
+      <br />
+      <br />
+      <h1>The value for the number is: <span id="myText"></span></h1>
+</body>
+   
 </html>
