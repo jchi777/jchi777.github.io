@@ -12,14 +12,15 @@ var mobileNative = (function () {
 		alert("Test Success!!");
 	}
 
-	mobile.invokeTracktoMobile = function simplifiedTrackingToMobile(trackingNumber, trackStatusCode, trackStatusDescription){  
+	mobile.invokeTracktoMobile = function simplifiedTrackingToMobile(){  
 		var url = mobile._getTrackUrl();
+		alert(url);
 		window.location = url;
 	} 
 
 	
 	mobile._getTrackUrl = function getTrackUrl(){
-		return mobile.urls["STTOMOBILE"] + "SimplifiedTrackingToMobile";
+		return mobile.urls["MOBILENATIVEINTERCEPT"] + "st_test";;
 	};
 
 

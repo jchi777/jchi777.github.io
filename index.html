@@ -6,23 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script type="text/javascript" src="MobileNative_vTEST.js"></script>
   <title>ST Test Page</title>
-
-  <script type = "text/javascript">  
-    function myfunction() {   
-    alert("NEW HTML JS CALL SUCCESS");  
-             }  
-    </script> 
   
 </head>
 
 <body>
   
   <h1>Simplified Tracking Test</h1>
-  
-      <button type="button" onclick="alert('You pressed the button!')" style="background-color:royalblue;color:white;padding:20px" >Track Success </button>
-      
-      <button type="button" onclick="mobileNative.invokeAlert()" style="background-color:rgb(52, 57, 73);color:white;padding:20px" >Test JS Call </button>
+  <br />
+  <h3> Test Track to Mobile</h3>
+      <button type="button" onclick="mobileNative.invokeTracktoMobile()" style="background-color:rgb(52, 57, 73);color:white;padding:20px;width:200px;height:60px;font-size: large; " >invokeTracktoMobile </button>
+  </body>
 
-      <button type="button" onclick=myfunction() style="background-color:rgb(10, 46, 20);color:white;padding:20px" >Test Local JS Call </button>
-</body>
+  <br />
+  <h3> Test Track to Mobile</h3>
+      <button type="button" onclick="mobileNative.invokeAlert()" style="background-color:rgb(52, 57, 73);color:white;padding:20px;width:200px;height:60px;font-size: large; " >Test JS Call </button>
+  </body>
+      
+  
+
 </html>
